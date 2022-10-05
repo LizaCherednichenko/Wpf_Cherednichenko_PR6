@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Cherednichenko_PR6"
         mc:Ignorable="d"
-        Title="Регистрация" Height="261" Width="401" Background="#FFBCD8CD">
+        Title="Авторизация" Height="261" Width="401" Background="#FFBCD8CD">
     <Grid>
         <Label Content="Введите логин" HorizontalAlignment="Left" Margin="30,28,0,0" VerticalAlignment="Top"/>
         <Label Content="Введите пароль" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top"/>
