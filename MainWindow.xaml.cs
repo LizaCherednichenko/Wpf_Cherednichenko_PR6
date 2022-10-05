@@ -24,5 +24,31 @@ namespace Wpf_Cherednichenko_PR6
         {
             InitializeComponent();
         }
+
+        string l;
+        string par;
+        string a = "admin";
+        string p = "1234";
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            l = login.Text;
+            par = parol.Text;
+
+            if (l != a)
+            {
+                MessageBox.Show("Неверный логин");
+            }
+            
+            else if (par != p)
+            {
+                MessageBox.Show("Неверный пароль");
+            }
+            
+            else if (l == a && par == p)
+                {
+                
+            }
+        }
     }
 }

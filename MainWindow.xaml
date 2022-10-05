@@ -11,7 +11,7 @@
         <Label Content="Введите пароль" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="login" HorizontalAlignment="Left" Height="23" Margin="156,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="186" BorderBrush="Black"/>
         <TextBox x:Name="parol" HorizontalAlignment="Left" Height="23" Margin="156,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="186" BorderBrush="Black"/>
-        <Button x:Name="button1" Content="ОК" HorizontalAlignment="Left" Margin="156,172,0,0" VerticalAlignment="Top" Width="76" Background="#FFD1CCE6"/>
+        <Button x:Name="button1" Content="ОК" HorizontalAlignment="Left" Margin="156,172,0,0" VerticalAlignment="Top" Width="76" Background="#FFD1CCE6" Click="button1_Click"/>
 
     </Grid>
 </Window>
