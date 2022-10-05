@@ -35,19 +35,28 @@ namespace Wpf_Cherednichenko_PR6
             l = login.Text;
             par = parol.Text;
 
-            if (l != a)
-            {
-                MessageBox.Show("Неверный логин");
-            }
             
+
+            if (l != a && par != p)
+            {
+                MessageBox.Show("Неверные логин и пароль");
+            }
+
             else if (par != p)
             {
                 MessageBox.Show("Неверный пароль");
             }
-            
+
+            else if (l != a)
+            {
+                MessageBox.Show("Неверный логин");
+            }
+
             else if (l == a && par == p)
                 {
-                
+                Window1 window1 = new Window1();
+                window1.Show();
+                mainWind.Close();
             }
         }
     }
