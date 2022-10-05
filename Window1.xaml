@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Cherednichenko_PR6"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Календарь" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="367,314,0,0" VerticalAlignment="Top"/>
+        <DatePicker Name="data1" HorizontalAlignment="Left" Margin="136,59,0,0" VerticalAlignment="Top" CalendarClosed="data1_CalendarClosed"/>
+        <DatePicker Name="data2" HorizontalAlignment="Left" Margin="447,59,0,0" VerticalAlignment="Top" CalendarClosed="data2_CalendarClosed"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="367,281,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
     </Grid>
 </Window>

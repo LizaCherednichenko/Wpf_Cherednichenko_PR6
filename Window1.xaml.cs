@@ -23,5 +23,24 @@ namespace Wpf_Cherednichenko_PR6
         {
             InitializeComponent();
         }
+
+        DateTime d1;
+        DateTime d2;
+
+        private void data1_CalendarClosed(object sender, RoutedEventArgs e)
+        {
+            d1 = data1.SelectedDate.Value;
+        }
+
+        private void data2_CalendarClosed(object sender, RoutedEventArgs e)
+        {
+            d2 = data2.SelectedDate.Value;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TimeSpan x = d2 - d1;
+            label1.Content = x;
+        }
     }
 }
